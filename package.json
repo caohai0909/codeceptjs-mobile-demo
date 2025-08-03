@@ -1,0 +1,29 @@
+{
+  "name": "gondola_mobile_abt",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "android:build": "npx codeceptjs def --config=./codecept.android.conf.ts",
+    "android:qc": "npx codeceptjs run-multiple --config=./codecept.android.conf.ts --all --report mochawesome"
+  },
+  "keywords": [
+    "codeceptjs",
+    "codeceptJS",
+    "mochawesome",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "codeceptjs": "^3.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "webdriverio": "^6.12.1",
+    "mocha": "^11.7.1",
+    "appium-uiautomator2-driver": "4.2.7",
+    "appium-xcuitest-driver": "9.10.1",
+    "appium": "2.19.0",
+    "@wdio/selenium-standalone-service": "8.15.0",
+    "@types/imap-simple": "4.2.10",
+    "@types/mailparser": "3.4.6"
+  }
+}

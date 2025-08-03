@@ -1,0 +1,39 @@
+[
+    {
+        "scenario": "Return on the next day",
+        "customer": "john",
+        "car": "Toyota Prius",
+        "number": 1,
+        "pickup": {
+            "country": "US",
+            "state": "Arizona",
+            "city": "Tucson"
+        },
+        "return": {
+            "duration": 1,
+            "sameAsPickup": false,
+            "country": "US",
+            "state": "California",
+            "city": "Los Angeles"
+        },
+        "options": "N/A",
+        "totalPayment": 129.60
+    },
+    {
+        "scenario": "Return on the next 2 days",
+        "customer": "john",
+        "car": "Ford Mustang Coupe",
+        "number": 1,
+        "pickup": {
+            "country": "US",
+            "state": "California",
+            "city": "Los Angeles"
+        },
+        "return": {
+            "duration": 2,
+            "sameAsPickup": true
+        },
+        "options": "N/A",
+        "totalPayment": 334.80
+    }
+]

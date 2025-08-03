@@ -1,0 +1,18 @@
+[
+    {
+        "firstName": "john",
+        "lastName": "doe",
+        "password": "",
+        "driverLicense": "CA123456",
+        "passport": "830537258",
+        "phoneNumber": "1-325-324-5553"
+    },
+    {
+        "firstName": "david",
+        "lastName": "baker",
+        "password": "",
+        "driverLicense": "CA654321",
+        "passport": "942058316",
+        "phoneNumber": "2-856-524-8636"
+    }
+]

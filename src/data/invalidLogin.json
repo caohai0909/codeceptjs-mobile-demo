@@ -1,0 +1,17 @@
+[
+    {
+        "scenario": "Incorrrect userName",
+        "firstName": "Invalid User",
+        "password": ""
+    },
+    {
+        "scenario": "Incorrect password",
+        "firstName": "john",
+        "password": "123456"
+    },
+    {
+        "scenario": "Empty username and password",
+        "firstName": "",
+        "password": ""
+    }
+]
