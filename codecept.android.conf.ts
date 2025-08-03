@@ -1,9 +1,10 @@
 export const config: CodeceptJS.MainConfig = {
-  tests: 'src/*_test.ts',
+  tests: './src/**/*_test.ts',
   output: './output',
   helpers: {
     Appium: {
       app: './AUT/CarRental.apk',
+      port: 4724,
       desiredCapabilities: {
         platformName: "android",
         deviceName: "emulator",
@@ -26,9 +27,9 @@ export const config: CodeceptJS.MainConfig = {
       reportDir: "results",
       inlineAssets: true,
       timestamp: "isoDateTime",
-      reportFilename: "CodeceptJS_Report",
+      reportFilename: "CodeceptJS_Report_Android",
       autoOpen: true,
-      reportPageTitle: "CodecepJS Test Result"
+      reportPageTitle: "CodecepJS Test Result - Android"
     }
   },
   include: {
